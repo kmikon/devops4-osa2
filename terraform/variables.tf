@@ -1,7 +1,7 @@
 variable "project_name" {}
 variable "billing_account" {}
 variable "region" {
-  default = "europe-north1"
+  default = "europe-west1"
 }
 variable "machine_type" {
   default = "f1-micro"

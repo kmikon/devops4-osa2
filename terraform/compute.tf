@@ -7,7 +7,7 @@ resource "google_compute_address" "default" {
 resource "google_compute_instance" "default" {
 
  project = "${google_project_services.project.project}"
- zone = "${var.region}-a"
+ zone = "${var.region}-b"
  allow_stopping_for_update = "true"
  name = "${var.project_name}-web"
  tags = ["web"]
